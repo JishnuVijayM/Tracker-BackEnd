@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 //bcrypt - for password hashing
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
+
 
 //JSON - web token - JWT
 const jwt = require("jsonwebtoken");
